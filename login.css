@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contaLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contaLogin .login{
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: brown;
+    height: 250px;
+}
+.contaLogin .login label{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: darkcyan;
+    border: none;
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img{
+    width: 30px;
+    height: 30px;
+    display: none;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

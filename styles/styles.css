@@ -1,0 +1,400 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#header{
+    height: 100vh;
+}
+#header  nav .left div a{
+    text-decoration: none;
+    color: rgb(17, 9, 9);
+}
+#header nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#header nav ul{
+    
+    padding: 20px 0px;
+    display: flex;
+    gap: 100px;
+}
+.fa-bars{
+    display: none!important;
+    color: rgb(17, 9, 9);
+    font-size: 35px;
+}
+#header nav ul li{
+    list-style: none;
+}
+#header nav ul li a{
+    text-decoration: none;
+    color: rgb(17, 9, 9);
+    font-size: 12px;
+}
+#header .centerHeader{
+height: 90vh;
+display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#header .centerHeader .contaBox{
+    position: relative;
+    height: 65vh;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#header .centerHeader .contaBox #b1{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 2;
+}
+#header .centerHeader .contaBox #b2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 3;
+}
+#header .centerHeader .contaBox  .img{
+   position: absolute;
+   width: 253px;
+   height: 352px;
+   z-index: 4;
+   top: 0;
+   left: 0;
+}
+#header .centerHeader .contaBox  .img img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+#header .centerHeader .contaBox .headerText{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 5;
+    color: black;
+    gap: 20px;
+    color: white;
+}
+#header .centerHeader .contaBox .headerText h2{
+    font-size: 65px;
+
+}
+#header .centerHeader .contaBox .headerText button{
+    width: 150px;
+    height: 45px;
+    background-color: transparent;
+    border: 2px solid rgb(245, 242, 242);
+}
+
+.u-svg-link{
+    fill: orangered;
+}
+
+svg{
+    font-size: 50px!important;
+    fill: red!important;
+    color: green!important;
+    height: 50px;
+}
+
+#section1{
+    
+    
+}
+#section1 .contaBoxSec{
+    padding: 0px 10px;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#section1 .contaBoxSec .Box{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 50px;
+    gap: 20px;
+}
+#section1 .contaBoxSec .Box .line{
+   background-color: red;
+    width: 60px;
+    height: 2px;
+}
+#section1 .contaBoxSec .Box p{
+    text-align: center;
+}
+main #section2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+main #section2 .imageConta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main #section2 .imageConta .image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+}
+main #section2 .section2Text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    gap: 5px;
+}
+main #section2 .section2Text h1{
+    text-align: center;
+    font-size: 65px;
+    color: orangered;
+}
+main #section2 .section2Text  #line{
+    width: 70px;
+    height: 3px;
+    background-color: red;
+}
+main #section2 .section2Text p{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+main #section3{
+
+}
+main #section3 .contaSec3Box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    position: relative;
+    bottom:100px;
+    
+}
+main #section3 .contaSec3Box .Sec3Box{
+    width: 440px;
+    height: 430px;
+    border:  20px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+main #section3 .contaSec3Box .Sec3Box .Sec3Img{
+    width: 400px;
+    height: 200px;
+}
+main #section3 .contaSec3Box .Sec3Box .Sec3Img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+main #section3 .contaSec3Box .Sec3Box h4{
+    font-family: sans-serif;
+}
+main #section3 .contaSec3Box .Sec3Box p{
+    font-family: sans-serif;
+}
+main #section3 .button{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+main #section3 .button button{
+    color: white;
+    background-color: rgb(202, 69, 20);
+    border: 0px;
+    width: 200px;
+    height: 70px;
+}
+main #section3 .buttondiv{
+  
+    height: 3px;
+    background-color: rgba(14, 11, 11, 0.212);
+    margin: 0 auto;
+    margin-top: 40px;
+}
+main #section4{
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+main #section4 .contaSec4Img{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0px 40px;
+    justify-content: center;
+}
+main #section4 .contaSec4Img .imgSec4img1{
+    width: 400px;
+    height: 450px;
+}
+main #section4 .contaSec4Img .imgSec4img2{
+    width: 400px;
+    height: 300px;
+}
+main #section4 .contaSec4Img .imgSec4img3{
+    width: 400px;
+    height: 450px;
+}
+main #section4 .contaSec4Img .imgSec4img4{
+    width: 400px;
+    height: 450px;
+}
+main #section4 .contaSec4Img .imgSec4img5{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 160px;
+}
+main #section4 .contaSec4Img .imgSec4img6{
+    width: 400px;
+    height: 450px;
+}
+main #section4 .contaSec4Img .imgSec4img7{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    bottom: 320px;
+    /* left: 420px;
+    bottom: 320px; */
+}
+main #section4 .ContaSec4Text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+main #section4 .ContaSec4Text h2{
+    font-family: sans-serif;
+}
+main #section4 .ContaSec4Text .Sec4Line{
+    background-color: orangered;
+    height: 2px;
+    width: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:1200px){
+    .fa-bars{
+        display: block!important;
+    }
+    #header nav ul{
+        display: none;
+    } 
+    #header .centerHeader .contaBox #b2{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 2;
+        display: none;
+    }
+    #header .centerHeader .contaBox .img{
+        position: relative;
+        right: 50px;
+        left: auto;
+    }
+    main #section1{
+        height: 130vh;
+    }
+    main #section2 .section2Text p{
+        text-align: center;
+    }
+    main #section3{
+        height: 270vh;
+    }
+    main #section4{
+        height: 300vh;
+    }
+    main #section4 .contaSec4Img{
+        flex-wrap: wrap;
+        width: 100%;
+        height: 100%;
+        padding: 0px;
+    }
+    main #section4 .imgSec4img6{
+        
+    }
+    main #section4 .imgSec4img7{
+        position: static;
+        bottom: 0px;
+        
+    }
+}
+@media(max-width:540px){
+    main #section4 .contaSec4Img img{
+        height:300px !important;
+        width: 100%;
+        object-fit: cover;
+    }
+    main #section4 .contaSec4Img  {
+        width: 400px;
+        height: fit-content;
+    }
+    main #section4 .contaSec4Img .imgSec4img5 {
+        bottom: 0;
+    }
+    main .contaSec4Img .imgSec4img7 {
+        width: 400px;
+        height: 300px;
+        position: static;
+        bottom: 0px !important;
+    }
+}

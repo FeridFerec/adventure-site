@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+* main .conta .contaSignup {
+  background-color: yellow;
+  width: 280px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+* main .conta .contaSignup form {
+  display: flex;
+  flex-direction: column;
+  padding: 50px 0px;
+}
+* main .conta .contaSignup form button {
+  background-color: aqua;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 140px;
+  position: relative;
+  left: 60px;
+  top: 30px;
+}
+* main .conta .contaSignup form button :hover {
+  color: red;
+}
+* main .conta .contaSignup form label {
+  display: flex;
+  padding: 0px 20px;
+  justify-content: space-between;
+}/*# sourceMappingURL=Signup.css.map */
